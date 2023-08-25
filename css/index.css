@@ -1,0 +1,232 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: '楷体';
+	box-sizing: border-box;
+}
+
+/* html {
+	height: 2000px;
+} */
+
+/* 图片旋转动画 */
+@keyframes go{
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+#one {
+	
+	width: 900px;
+	height: 600px;
+	background: #222222;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+#left {
+	width: 640px;
+	height: 200px;
+	background: #000;
+	float:left;
+}
+
+#left>div:first-child {
+	float: left;
+	transform: translate(30px,15px);
+	width: 150px;
+	height: 150px;
+	/* background: blue; */
+}
+.img_1>img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+#left>div:nth-child(2) {
+	width: 300px;
+	height: 150px;
+	float: left;
+	/* background: red; */
+	transform: translate(40px,15px);
+	text-align: center;
+	
+}
+
+.left_2>h1 {
+	color: #656465;
+	transform: translateY(35px);
+}
+.left_2>p {
+	color: #656465;
+	transform: translateY(35px);
+}
+
+#left>div:last-child {
+	width: 70px;
+	height: 150px;
+	float: right;
+	/* background: red; */
+	transform: translate(-25px,15px);
+}
+
+.buts {
+	width: 40px;
+	height: 40px;
+	/* float: left; */
+	/* background: blue; */
+	margin: 5px auto;
+	padding: 3px 3px;
+}
+.left_3>.buts:first-child>img {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.left_3>.buts:nth-child(2)>img,
+.left_3>.buts:last-child>img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 4px;
+	width: 80%;
+}
+.bctive {
+	background: rgba(255, 255, 255, .9);
+}
+#right {
+	width: 250px;
+	height: 600px;
+	background: #222222;
+	float: right;
+	padding: 10px 0;
+}
+
+#right>ul {
+	width: 250px;
+	height: 580px;
+}
+
+#right>ul>li {
+	width: 250px;
+	height: 40px;
+	
+	line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+	text-indent: 1em;
+}
+#right>ul>li:hover {
+	background: #666666;
+	color: greenyellow;
+}
+
+#right>ul>li>span {
+	display: block;
+	float: right;
+	margin-right: 5px;
+	font-size: 14px;
+}
+.active {
+	background: #656465;
+}
+#middle {
+	width: 640px;
+	height: 360px;
+	/* background: green; */
+	float: left;
+	margin-top: 15px;
+}
+
+.getime {
+	width: 640px;
+	height: 80px;
+	/* background: blue; */
+	text-align: center;
+	line-height: 80px;
+	font-size: 45px;
+	color: #666666;
+}
+
+.bf {
+	width: 100%;
+	height: 240px;
+	/* background: red; */
+	transform: translateY(40px);
+}
+
+.but {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: none;
+	/* background: transparent; */
+	margin: 0 80px;
+}
+.bf>.but:first-child {
+	background: url('../img/上一首.png') no-repeat;
+	background-size: 100%;
+}
+
+.bf>.but:nth-child(2) {
+	background: url('../img/暂停.png') no-repeat;
+	background-size: 100%;
+}
+
+.bf>.but:nth-child(3) {
+	background: url('../img/下一首.png') no-repeat;
+	background-size: 105%;
+}
+input[type="range"] {
+	width: 600px;
+	transform: translate(25px,40px)
+}
+
+.big {
+	width: 600px;
+	height: 40px;
+	/* background: gold; */
+	transform: translate(25px,100px);
+}
+
+.big>li:first-child {
+	width: 40px;
+	height: 40px;
+	float: left;
+	background: url('../img/音量减小.png') no-repeat;
+	background-size: 60%;
+	
+}
+
+	
+.big>li:nth-child(2) {
+	
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	background: url('../img/静音.png') no-repeat;
+	background-size: 60%;
+}
+.big>li:last-child {
+	width: 40px;
+	height: 40px;
+	float: right;
+	background: url('../img/notice.png') no-repeat;
+	background-size: 60%;
+	/* transform: rotate(360deg); */
+}

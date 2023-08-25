@@ -1,0 +1,101 @@
+[
+	{
+		"name" : "王力宏",
+		"musicname" : "大城小爱",
+		"img" : "./img/9d05f2a8fc271914f058cdd6a35cbdc94e67b778.jpg",
+		"musictime" : "03:42",
+		"musicurl" : "./radio/大城小爱.mp3"
+	},
+	{
+		"name" : "王力宏",
+		"musicname" : "简单的歌",
+		"img" : "./img/a5167796fc3d266f0c228adf2ce2f569ce3fe898.jpg",
+		"musictime" : "04:07",
+		"musicurl" : "./radio/简单的歌.mp3"
+	},
+	{
+		"name" : "王力宏",
+		"musicname" : "缘分一道桥",
+		"img" : "./img/7b6c26fd5e99b83195f83fafedcf86b99c8db35b.jpg",
+		"musictime" : "04:06",
+		"musicurl" : "./radio/缘分一道桥.mp3"
+	},
+	{
+		"name" : "毛不易",
+		"musicname" : "借",
+		"img" : "./img/7d107f7fee4e75f3196a98662133b0e28200bd5b.jpg",
+		"musictime" : "04:03",
+		"musicurl" : "./radio/借.mp3"
+	},
+	{
+		"name" : "毛不易",
+		"musicname" : "消愁",
+		"img" : "./img/7d107f7fee4e75f3196a98662133b0e28200bd5b.jpg",
+		"musictime" : "04:22",
+		"musicurl" : "./radio/消愁.mp3"
+	},
+	{
+		"name" : "毛不易",
+		"musicname" : "一荤一素",
+		"img" : "./img/7d107f7fee4e75f3196a98662133b0e28200bd5b.jpg",
+		"musictime" : "04:41",
+		"musicurl" : "./radio/一荤一素.mp3"
+	},
+	{
+		"name" : "许嵩&何曼婷",
+		"musicname" : "素颜",
+		"img" : "./img/36a54d15f6504645ca68ff68d14a8a6b3941001a.png",
+		"musictime" : "03:58",
+		"musicurl" : "./radio/素颜.mp3"
+	},
+	{
+		"name" : "许嵩",
+		"musicname" : "清明雨上",
+		"img" : "./img/fad1391b3982048aff749f7b6f62d9456b11d2da.jpg",
+		"musictime" : "03:39",
+		"musicurl" : "./radio/清明雨上.mp3"
+	},
+	{
+		"name" : "陈一发",
+		"musicname" : "童话镇",
+		"img" : "./img/2b23c62007101d0a69e12d43cd7ec72adfeb72c7.jpg",
+		"musictime" : "04:17",
+		"musicurl" : "./radio/童话镇.mp3"
+	},
+	{
+		"name" : "半阳",
+		"musicname" : "流浪",
+		"img" : "./img/4.jpg",
+		"musictime" : "03:39",
+		"musicurl" : "./radio/半阳 - 流浪.mp3"
+	},
+	{
+		"name" : "宝石Gem",
+		"musicname" : "野狼disc",
+		"img" : "./img/1.jpg",
+		"musictime" : "03:22",
+		"musicurl" : "./radio/宝石Gem - 野狼disco (Live).mp3"
+	},
+	{
+		"name" : "广东雨神",
+		"musicname" : "广东爱情故事",
+		"img" : "./img/8.jpg",
+		"musictime" : "03:31",
+		"musicurl" : "./radio/广东爱情故事.mp3"
+	},
+	{
+		"name" : "流行蝴蝶剑",
+		"musicname" : "S5",
+		"img" : "./img/1.jpg",
+		"musictime" : "01:50",
+		"musicurl" : "./radio/S5.mp3"
+	},
+	{
+		"name" : "流行蝴蝶剑",
+		"musicname" : "S7",
+		"img" : "./img/2.jpg",
+		"musictime" : "01:50",
+		"musicurl" : "./radio/S7.mp3"
+	}
+	
+]

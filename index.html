@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>音乐播放器</title>
+		<link rel="stylesheet" href="./css/index.css">
+	</head>
+	<body>
+		<div id="one">
+			<!-- logo -->
+			<div id="left">
+				<div class="img_1"></div>
+				<div class="left_2">
+					<h1>--</h1>
+					<p>--</p>
+				</div>
+				<div class="left_3" >
+					<div class="buts bctive" age="循环">
+						<img src="./img/循环播放.png"  alt="">
+					</div>
+					<div class="buts" age="顺序">
+						<img src="./img/列表.png"  alt="">
+					</div>
+					<div class="buts" age="随机">
+						<img src="./img/喜爱-填充.png"  alt="">
+					</div>
+				</div>
+			</div>
+			<!-- 列表 -->
+			<div id="right">
+				<ul></ul>
+			</div>
+			<!-- 播放 -->
+			<div id="middle">
+				<h2 class="getime">--:--</h2>
+				<div class="bf">
+					<button class="but prev"></button>
+					<button class="but zb" keep="暂停"></button>
+					<button class="but next"></button>
+					<input type="range" value="0" min="0" max="" id="inp">
+					<audio id="aud" src="" ></audio>
+					<div class="big">
+						<li></li>
+						<li></li>
+						<li></li>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="./jQuery/jquery-3.4.1.min.js"></script>
+	<script src="./js/index.js"></script>
+</html>
